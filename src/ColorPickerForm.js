@@ -65,7 +65,7 @@ class ColorPickerForm extends Component {
             placeholder="Color Name"
             validators={["required", "isColorNameUnique", "isColorUnique"]}
             errorMessages={[
-              "Enter a color name",
+              "Enter a color name yo",
               "Color name must be unique",
               "Color already used!",
             ]}
